@@ -345,25 +345,20 @@ body {
 }
 /* HEADLINE IMAGE */
 .grid-item-15 {
-	border: 2px solid black;
-	font-size: 50px;
-	background-color: gray;
-	color: black;
 	text-align: center;
 	grid-column-start: 1;
 	grid-column-end: 4;
 	grid-row-start: 5;
 	grid-row-end: 12;
 }
-/* HEADLINE STORY */
+/* HEADLINE */
 .grid-item-16 {
-	border: 2px solid black;
 	font-size: 50px;
 	text-align: center;
 	grid-column-start: 4;
 	grid-column-end: 7;
 	grid-row-start: 5;
-	grid-row-end: 13;
+	grid-row-end: 7;
 }
 /* HEADLINE IMAGE DESCRIPTION */
 .grid-item-16a{
@@ -374,6 +369,27 @@ body {
 	grid-column-end: 4;
 	grid-row-start: 12;
 	grid-row-end: 13;
+}
+/* HEADLINE Story */
+.grid-item-16b {
+	text-align: start;
+	overflow: hidden;
+	grid-column-start: 4;
+	grid-column-end: 7;
+	grid-row-start: 7;
+	grid-row-end: 13;
+}
+.grid-text {
+  font-size: 20px;
+  line-height: 1.4;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.continue-link {
+  bottom: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: blue;
 }
 /*Banner Ad1 */
 .banner-container17 {
