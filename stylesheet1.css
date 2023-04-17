@@ -438,7 +438,7 @@ body {
 .banner-container21 {
   	width: 100%;
   	height: 100%;
-  	background-image: url(images/banner07_army.jpg);
+  	background-image: url("images/banner11_rubys.jpg");
   	background-size: cover;
   	background-position: center;
 	grid-column-start: 2;
