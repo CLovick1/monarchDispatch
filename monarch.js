@@ -19,7 +19,11 @@ var banners1 = [
   "images/banner04_gg.jpg",
   "images/banner05_franny.jpg",
   "images/banner06_chubbs.jpg",
-  "images/banner07_army.jpg"
+  "images/banner07_army.jpg",
+  "images/banner08_golden.jpg",
+  "images/banner09_vino.jpg",
+  "images/banner10_corvinus.jpg",
+  "images/banner11_rubys.jpg"
 ];
 
 // Initialize the currentImageIndex variable to 0 for the first banner container
@@ -44,6 +48,10 @@ setInterval(function() {
 
 // Define the banners array for the second banner container
 var banners2 = [
+  "images/banner11_rubys.jpg",
+  "images/banner10_corvinus.jpg",
+  "images/banner09_vino.jpg",
+  "images/banner08_golden.jpg",
   "images/banner07_army.jpg",
   "images/banner06_chubbs.jpg",
   "images/banner05_franny.jpg",
