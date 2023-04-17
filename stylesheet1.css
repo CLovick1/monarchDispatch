@@ -406,33 +406,69 @@ body {
 
 /* SPORTS BOX 1 of 3 */
 .grid-item-18{
-	border: 2px solid black;
-	font-size: 50px;
-	text-align: center;
 	grid-column-start: 1;
 	grid-column-end: 3;
 	grid-row-start: 15;
 	grid-row-end: 19;
 }
+.grid-item-18 button {
+	display: block;
+  	width: 100%;
+ 	height: 100%;
+  	background-image: url('images/sportsbox.jpg');
+  	background-size: contain;
+	background-position: center center;
+	cursor: pointer;
+  	font-family: inherit;
+  	transition: opacity 0.2s ease-in-out; /* add transition for smooth effect */
+}
+.grid-item-18 button:hover {
+  opacity: 0.5; /* reduce opacity on hover */
+}
 /* PHOTO GALLERY BOX 2 of 3 */
 .grid-item-19{
-	border: 2px solid black;
-	font-size: 50px;
-	text-align: center;
 	grid-column-start: 3;
 	grid-column-end: 5;
 	grid-row-start: 15;
 	grid-row-end: 19;
 }
+.grid-item-19 button {
+	display: block;
+  	width: 100%;
+ 	height: 100%;
+  	background-image: url('images/photoBox.jpg');
+  	background-size: contain;
+	background-position: center center;
+	cursor: pointer;
+  	font-family: inherit;
+  	transition: opacity 0.2s ease-in-out; /* add transition for smooth effect */
+}
+
+.grid-item-19 button:hover {
+  opacity: 0.5; /* reduce opacity on hover */
+}
+
 /* LOCAL NEWS BOX 3 of 3 */
 .grid-item-20{
-	border: 2px solid black;
-	font-size: 50px;
-	text-align: center;
 	grid-column-start: 5;
 	grid-column-end: 7;
 	grid-row-start: 15;
 	grid-row-end: 19;
+}
+.grid-item-20 button {
+	display: block;
+  	width: 100%;
+ 	height: 100%;
+  	background-image: url('images/localNewsbox.jpg');
+  	background-size: contain;
+	background-position: center center;
+	cursor: pointer;
+  	font-family: inherit;
+  	transition: opacity 0.2s ease-in-out; /* add transition for smooth effect */
+}
+
+.grid-item-20 button:hover {
+  opacity: 0.5; /* reduce opacity on hover */
 }
 /* BANNER AD 2 */
 .banner-container21 {

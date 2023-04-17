@@ -59,7 +59,6 @@ var banners2 = [
   "images/banner03_pizza.jpg",
   "images/banner02_rr.jpg",
   "images/banner01_thunderpeak.jpg"
-  
 ];
 
 // Initialize the currentImageIndex variable to 0 for the second banner container
