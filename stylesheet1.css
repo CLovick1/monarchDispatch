@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-  	background-image: url('images/oldpaper.jpg');
+  	background-image: url('images/oldpaper2.jpg');
 }
 
 #volume {
@@ -363,7 +363,7 @@ body {
 /* HEADLINE IMAGE DESCRIPTION */
 .grid-item-16a{
 	border: 2px solid black;
-	font-size: 14px;
+	font-size: 18px;
 	text-align: center;
 	grid-column-start: 1;
 	grid-column-end: 4;
