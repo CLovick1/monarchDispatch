@@ -243,6 +243,8 @@ body {
 /* HEADLINE #1 TEXT*/
 .grid-item-15 {
 	border: 2px solid black;
+	text-align: center;
+	font-size: 35px;
 	grid-column-start: 1;
 	grid-column-end: 3;
 	grid-row-start: 6;
@@ -251,6 +253,8 @@ body {
 /* HEADLINE #2 TEXT */
 .grid-item-16 {
 	border: 2px solid black;
+	text-align: center;
+	font-size: 35px;
 	grid-column-start: 3;
 	grid-column-end: 5;
 	grid-row-start: 6;
@@ -259,7 +263,7 @@ body {
 /* EVENTS TEXT */
 .grid-item-16a{
 	border: 2px solid black;
-	font-size: 22px;
+	font-size: 35px;
 	grid-column-start: 5;
 	grid-column-end: 7;
 	grid-row-start: 6;
@@ -267,7 +271,6 @@ body {
 }
 /* HEADLINE #1 IMAGE */
 .grid-item-16b {
-	border: 2px solid black;
 	grid-column-start: 1;
 	grid-column-end: 3;
 	grid-row-start: 8;
@@ -276,7 +279,6 @@ body {
 
 /* HEADLINE #2 IMAGE */
 .grid-item-16c {
-	border: 2px solid black;
 	grid-column-start: 3;
 	grid-column-end: 5;
 	grid-row-start: 8;
