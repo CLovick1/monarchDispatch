@@ -97,6 +97,38 @@ function showModal() {
 
   // Create a new image element inside the modal
   var img = document.createElement("img");
+  img.src = "images/FIRST_HEADLINE.jpg";
+  img.alt = "Monarch Dispatch Online";
+  img.style.maxWidth = "150%";
+  img.style.maxHeight = "150%";
+
+  // Add the image to the modal
+  modal.appendChild(img);
+
+  // Add the modal to the page
+  document.body.appendChild(modal);
+
+  // Add a click event listener to close the modal when clicked
+  modal.addEventListener("click", function() {
+    document.body.removeChild(modal);
+  });
+}
+
+function showModalB() {
+  // Create a new div element for the modal
+  var modal = document.createElement("div");
+  modal.style.position = "fixed";
+  modal.style.top = "0";
+  modal.style.left = "0";
+  modal.style.width = "100%";
+  modal.style.height = "100%";
+  modal.style.backgroundColor = "rgba(0,0,0,0.8)";
+  modal.style.display = "flex";
+  modal.style.alignItems = "center";
+  modal.style.justifyContent = "center";
+
+  // Create a new image element inside the modal
+  var img = document.createElement("img");
   img.src = "images/mainStreet_Final.jpg";
   img.alt = "Main Street";
   img.style.maxWidth = "80%";
