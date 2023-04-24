@@ -154,15 +154,6 @@ body {
   opacity: 0.5; /* reduce opacity on hover */
 }
 
-.audio-player {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #eee;
-  padding: 5px;
-}
-
 /* News on Nav bar*/
 .grid-item-6 {
   	grid-column-start: 1;

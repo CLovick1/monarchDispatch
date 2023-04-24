@@ -1,4 +1,3 @@
-
 /* KAWL AUDIO PLAYER */
 const audio = document.getElementById('kawl-audio');
 const button = document.getElementById('kawl-button');
