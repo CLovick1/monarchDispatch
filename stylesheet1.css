@@ -552,23 +552,47 @@ p {
 }
 /*News Item*/
 .footer-item-1 {
-	border: 5px solid white;
-	font-size: 20px;
-	text-align: center;
-	grid-column-start: 1;
+  	grid-column-start: 1;
 	grid-column-end: 2;
 	grid-row-start: 1;
 	grid-row-end: 2;
 }
+.footer-item-1 button {
+	display: block;
+  	width: 100%;
+ 	height: 100%;
+  	background-image: url('images/footerNews.jpg');
+  	background-size: contain;
+	background-position: center center;
+	cursor: pointer;
+  	font-family: inherit;
+  	transition: opacity 0.2s ease-in-out; /* add transition for smooth effect */
+}
+
+.footer-item-1 button:hover {
+  opacity: 0.5; /* reduce opacity on hover */
+}
 /*Opinion Item*/
 .footer-item-2 {
-	border: 5px solid white;
-	font-size: 20px;
-	text-align: center;
-	grid-column-start: 1;
+  	grid-column-start: 1;
 	grid-column-end: 2;
 	grid-row-start: 2;
 	grid-row-end: 3;
+}
+.footer-item-2 button {
+	display: block;
+  	width: 100%;
+ 	height: 100%;
+  	background-image: url('images/footerOpinion.jpg');
+  	background-size: contain;
+	background-position: center center;
+	cursor: pointer;
+  	font-family: inherit;
+  	transition: opacity 0.2s ease-in-out; /* add transition for smooth effect */
+}
+
+.footer-item-2 button:hover {
+  opacity: 0.5; /* reduce opacity on hover */
 }
 /*MONARCH DISPATCH FOOTER HEADER*/
 .footer-item-3 {
@@ -581,23 +605,47 @@ p {
 }
 /*Sports Item*/
 .footer-item-4 {
-	border: 5px solid white;
-	font-size: 20px;
-	text-align: center;
-	grid-column-start: 2;
+  	grid-column-start: 2;
 	grid-column-end: 3;
 	grid-row-start: 1;
 	grid-row-end: 2;
 }
+.footer-item-4 button {
+	display: block;
+  	width: 100%;
+ 	height: 100%;
+  	background-image: url('images/footerSports.jpg');
+  	background-size: contain;
+	background-position: center center;
+	cursor: pointer;
+  	font-family: inherit;
+  	transition: opacity 0.2s ease-in-out; /* add transition for smooth effect */
+}
+
+.footer-item-4 button:hover {
+  opacity: 0.5; /* reduce opacity on hover */
+}
 /*Weather Item*/
-.footer-item-5 {
-	border: 5px solid white;
-	font-size: 20px;
-	text-align: center;
-	grid-column-start: 2;
+.footer-item-5{
+  	grid-column-start: 2;
 	grid-column-end: 3;
 	grid-row-start: 2;
 	grid-row-end: 3;
+}
+.footer-item-5 button {
+	display: block;
+  	width: 100%;
+ 	height: 100%;
+  	background-image: url('images/footerWeather.jpg');
+  	background-size: contain;
+	background-position: center center;
+	cursor: pointer;
+  	font-family: inherit;
+  	transition: opacity 0.2s ease-in-out; /* add transition for smooth effect */
+}
+
+.footer-item-5 button:hover {
+  opacity: 0.5; /* reduce opacity on hover */
 }
 /*ADDRESS and WEB FOR MONARCH DISPATCH*/
 .footer-item-6 {
@@ -609,42 +657,90 @@ p {
 	grid-row-end: 3;
 }
 /*Obituaries Item*/
-.footer-item-7 {
-	border: 5px solid white;
-	font-size: 20px;
-	text-align: center;
-	grid-column-start: 1;
+.footer-item-7{
+ 	grid-column-start: 1;
 	grid-column-end: 2;
 	grid-row-start: 3;
 	grid-row-end: 4;
 }
+.footer-item-7 button {
+	display: block;
+  	width: 100%;
+ 	height: 100%;
+  	background-image: url('images/footerObits.jpg');
+  	background-size: contain;
+	background-position: center center;
+	cursor: pointer;
+  	font-family: inherit;
+  	transition: opacity 0.2s ease-in-out; /* add transition for smooth effect */
+}
+
+.footer-item-7 button:hover {
+  opacity: 0.5; /* reduce opacity on hover */
+}
 /*Classifieds Item*/
-.footer-item-8 {
-	border: 5px solid white;
-	font-size: 20px;
-	text-align: center;
-	grid-column-start: 2;
+.footer-item-8{
+ 	grid-column-start: 2;
 	grid-column-end: 3;
 	grid-row-start: 3;
 	grid-row-end: 4;
 }
+.footer-item-8 button {
+	display: block;
+  	width: 100%;
+ 	height: 100%;
+  	background-image: url('images/footerClassifieds.jpg');
+  	background-size: contain;
+	background-position: center center;
+	cursor: pointer;
+  	font-family: inherit;
+  	transition: opacity 0.2s ease-in-out; /* add transition for smooth effect */
+}
+
+.footer-item-8 button:hover {
+  opacity: 0.5; /* reduce opacity on hover */
+}
 /*PLACE AN AD Item*/
-.footer-item-9 {
-	border: 5px solid white;
-	font-size: 20px;
-	text-align: center;
-	grid-column-start: 3;
+.footer-item-9{
+ 	grid-column-start: 3;
 	grid-column-end: 4;
 	grid-row-start: 3;
 	grid-row-end: 4;
 }
+.footer-item-9 button {
+	display: block;
+  	width: 100%;
+ 	height: 100%;
+  	background-image: url('images/footerAD.jpg');
+  	background-size: contain;
+	background-position: center center;
+	cursor: pointer;
+  	font-family: inherit;
+  	transition: opacity 0.2s ease-in-out; /* add transition for smooth effect */
+}
+
+.footer-item-9 button:hover {
+  opacity: 0.5; /* reduce opacity on hover */
+}
 /*SUBMIT NEWS Item*/
-.footer-item-10 {
-	border: 5px solid white;
-	font-size: 20px;
-	text-align: center;
-	grid-column-start: 4;
+.footer-item-10{
+ 	grid-column-start: 4;
 	grid-column-end: 5;
 	grid-row-start: 3;
 	grid-row-end: 4;
+}
+.footer-item-10 button {
+	display: block;
+  	width: 100%;
+ 	height: 100%;
+  	background-image: url('images/footerSubmitNews.jpg');
+  	background-size: contain;
+	background-position: center center;
+	cursor: pointer;
+  	font-family: inherit;
+  	transition: opacity 0.2s ease-in-out; /* add transition for smooth effect */
+}
+
+.footer-item-10 button:hover {
+  opacity: 0.5; /* reduce opacity on hover */
 }
