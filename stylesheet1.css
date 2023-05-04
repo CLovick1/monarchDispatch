@@ -501,23 +501,47 @@ p {
 }
 /* A & E BOX 2 of 6*/
 .grid-item-23{
-	border: 2px solid black;
-	font-size: 50px;
-	text-align: center;
 	grid-column-start: 3;
 	grid-column-end: 5;
 	grid-row-start: 25;
 	grid-row-end: 29;
 }
+.grid-item-23 button {
+	display: block;
+  	width: 100%;
+ 	height: 100%;
+  	background-image: url('images/AEBox.jpg');
+  	background-size: contain;
+	background-position: center center;
+	cursor: pointer;
+  	font-family: inherit;
+  	transition: opacity 0.2s ease-in-out; /* add transition for smooth effect */
+}
+
+.grid-item-23 button:hover {
+  opacity: 0.5; /* reduce opacity on hover */
+}
 /* OPINION BOX 3 of 6*/
 .grid-item-24{
-	border: 2px solid black;
-	font-size: 50px;
-	text-align: center;
 	grid-column-start: 5;
 	grid-column-end: 7;
 	grid-row-start: 25;
 	grid-row-end: 29;
+}
+.grid-item-24 button {
+	display: block;
+  	width: 100%;
+ 	height: 100%;
+  	background-image: url('images/opinionBox.jpg');
+  	background-size: contain;
+	background-position: center center;
+	cursor: pointer;
+  	font-family: inherit;
+  	transition: opacity 0.2s ease-in-out; /* add transition for smooth effect */
+}
+
+.grid-item-24 button:hover {
+  opacity: 0.5; /* reduce opacity on hover */
 }
 /* OBITUARIES BOX 4 of 6*/
 .grid-item-25{
