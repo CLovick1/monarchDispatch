@@ -292,7 +292,6 @@ body {
 /* EVENT IMAGE */
 .grid-item-16d {
 	text-align: center;
-	border: 2px solid black;
 	grid-column-start: 5;
 	grid-column-end: 7;
 	grid-row-start: 8;

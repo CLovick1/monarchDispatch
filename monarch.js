@@ -144,3 +144,34 @@ function showModalB() {
     document.body.removeChild(modal);
   });
 }
+function showModalC() {
+  // Create a new div element for the modal
+  var modal = document.createElement("div");
+  modal.style.position = "fixed";
+  modal.style.top = "0";
+  modal.style.left = "0";
+  modal.style.width = "100%";
+  modal.style.height = "100%";
+  modal.style.backgroundColor = "rgba(0,0,0,0.8)";
+  modal.style.display = "flex";
+  modal.style.alignItems = "center";
+  modal.style.justifyContent = "center";
+
+  // Create a new image element inside the modal
+  var img = document.createElement("img");
+  img.src = "images/914CCCC.jpg";
+  img.alt = "Annual Awards Ceremony";
+  img.style.maxWidth = "80%";
+  img.style.maxHeight = "80%";
+
+  // Add the image to the modal
+  modal.appendChild(img);
+
+  // Add the modal to the page
+  document.body.appendChild(modal);
+
+  // Add a click event listener to close the modal when clicked
+  modal.addEventListener("click", function() {
+    document.body.removeChild(modal);
+  });
+}
