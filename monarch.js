@@ -207,3 +207,131 @@ function showModalD() {
     document.body.removeChild(modal);
   });
 }
+
+function showModalM1() {
+  // Create a new div element for the modal
+  var modal = document.createElement("div");
+  modal.style.position = "fixed";
+  modal.style.top = "0";
+  modal.style.left = "0";
+  modal.style.width = "100%";
+  modal.style.height = "100%";
+  modal.style.backgroundColor = "rgba(0,0,0,0.8)";
+  modal.style.display = "flex";
+  modal.style.alignItems = "center";
+  modal.style.justifyContent = "center";
+
+  // Create a new image element inside the modal
+  var img = document.createElement("img");
+  img.src = "images/Greater_Monarch_East.png";
+  img.alt = "Greater Monarch Map East";
+  img.style.maxWidth = "90%";
+  img.style.maxHeight = "90%";
+
+  // Add the image to the modal
+  modal.appendChild(img);
+
+  // Add the modal to the page
+  document.body.appendChild(modal);
+
+  // Add a click event listener to close the modal when clicked
+  modal.addEventListener("click", function() {
+    document.body.removeChild(modal);
+  });
+}
+
+function showModalM2() {
+  // Create a new div element for the modal
+  var modal = document.createElement("div");
+  modal.style.position = "fixed";
+  modal.style.top = "0";
+  modal.style.left = "0";
+  modal.style.width = "100%";
+  modal.style.height = "100%";
+  modal.style.backgroundColor = "rgba(0,0,0,0.8)";
+  modal.style.display = "flex";
+  modal.style.alignItems = "center";
+  modal.style.justifyContent = "center";
+
+  // Create a new image element inside the modal
+  var img = document.createElement("img");
+  img.src = "images/Greater_Monarch_West.png";
+  img.alt = "Greater Monarch Map West";
+  img.style.maxWidth = "90%";
+  img.style.maxHeight = "90%";
+
+  // Add the image to the modal
+  modal.appendChild(img);
+
+  // Add the modal to the page
+  document.body.appendChild(modal);
+
+  // Add a click event listener to close the modal when clicked
+  modal.addEventListener("click", function() {
+    document.body.removeChild(modal);
+  });
+}
+
+function showModalM3() {
+  // Create a new div element for the modal
+  var modal = document.createElement("div");
+  modal.style.position = "fixed";
+  modal.style.top = "0";
+  modal.style.left = "0";
+  modal.style.width = "100%";
+  modal.style.height = "100%";
+  modal.style.backgroundColor = "rgba(0,0,0,0.8)";
+  modal.style.display = "flex";
+  modal.style.alignItems = "center";
+  modal.style.justifyContent = "center";
+
+  // Create a new image element inside the modal
+  var img = document.createElement("img");
+  img.src = "images/MONARCH_CTR_Map.jpg";
+  img.alt = "Monarch City Central";
+  img.style.maxWidth = "90%";
+  img.style.maxHeight = "90%";
+
+  // Add the image to the modal
+  modal.appendChild(img);
+
+  // Add the modal to the page
+  document.body.appendChild(modal);
+
+  // Add a click event listener to close the modal when clicked
+  modal.addEventListener("click", function() {
+    document.body.removeChild(modal);
+  });
+}
+
+function showModalM4() {
+  // Create a new div element for the modal
+  var modal = document.createElement("div");
+  modal.style.position = "fixed";
+  modal.style.top = "0";
+  modal.style.left = "0";
+  modal.style.width = "100%";
+  modal.style.height = "100%";
+  modal.style.backgroundColor = "rgba(0,0,0,0.8)";
+  modal.style.display = "flex";
+  modal.style.alignItems = "center";
+  modal.style.justifyContent = "center";
+
+  // Create a new image element inside the modal
+  var img = document.createElement("img");
+  img.src = "images/MONARCH_NTH.jpg";
+  img.alt = "Monarch City North";
+  img.style.maxWidth = "90%";
+  img.style.maxHeight = "90%";
+
+  // Add the image to the modal
+  modal.appendChild(img);
+
+  // Add the modal to the page
+  document.body.appendChild(modal);
+
+  // Add a click event listener to close the modal when clicked
+  modal.addEventListener("click", function() {
+    document.body.removeChild(modal);
+  });
+}
