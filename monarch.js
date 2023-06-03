@@ -208,6 +208,38 @@ function showModalD() {
   });
 }
 
+function showModalE() {
+  // Create a new div element for the modal
+  var modal = document.createElement("div");
+  modal.style.position = "fixed";
+  modal.style.top = "0";
+  modal.style.left = "0";
+  modal.style.width = "100%";
+  modal.style.height = "100%";
+  modal.style.backgroundColor = "rgba(0,0,0,0.8)";
+  modal.style.display = "flex";
+  modal.style.alignItems = "center";
+  modal.style.justifyContent = "center";
+
+  // Create a new image element inside the modal
+  var img = document.createElement("img");
+  img.src = "images/914EEEE.jpg";
+  img.alt = "New Clinic Opening";
+  img.style.maxWidth = "80%";
+  img.style.maxHeight = "80%";
+
+  // Add the image to the modal
+  modal.appendChild(img);
+
+  // Add the modal to the page
+  document.body.appendChild(modal);
+
+  // Add a click event listener to close the modal when clicked
+  modal.addEventListener("click", function() {
+    document.body.removeChild(modal);
+  });
+}
+
 function showModalM1() {
   // Create a new div element for the modal
   var modal = document.createElement("div");
@@ -321,6 +353,134 @@ function showModalM4() {
   var img = document.createElement("img");
   img.src = "images/MONARCH_NTH.jpg";
   img.alt = "Monarch City North";
+  img.style.maxWidth = "90%";
+  img.style.maxHeight = "90%";
+
+  // Add the image to the modal
+  modal.appendChild(img);
+
+  // Add the modal to the page
+  document.body.appendChild(modal);
+
+  // Add a click event listener to close the modal when clicked
+  modal.addEventListener("click", function() {
+    document.body.removeChild(modal);
+  });
+}
+
+function showModalS1() {
+  // Create a new div element for the modal
+  var modal = document.createElement("div");
+  modal.style.position = "fixed";
+  modal.style.top = "0";
+  modal.style.left = "0";
+  modal.style.width = "100%";
+  modal.style.height = "100%";
+  modal.style.backgroundColor = "rgba(0,0,0,0.8)";
+  modal.style.display = "flex";
+  modal.style.alignItems = "center";
+  modal.style.justifyContent = "center";
+
+  // Create a new image element inside the modal
+  var img = document.createElement("img");
+  img.src = "images/914KKKK.jpg";
+  img.alt = "Gollen Football";
+  img.style.maxWidth = "90%";
+  img.style.maxHeight = "90%";
+
+  // Add the image to the modal
+  modal.appendChild(img);
+
+  // Add the modal to the page
+  document.body.appendChild(modal);
+
+  // Add a click event listener to close the modal when clicked
+  modal.addEventListener("click", function() {
+    document.body.removeChild(modal);
+  });
+}
+
+function showModalS2() {
+  // Create a new div element for the modal
+  var modal = document.createElement("div");
+  modal.style.position = "fixed";
+  modal.style.top = "0";
+  modal.style.left = "0";
+  modal.style.width = "100%";
+  modal.style.height = "100%";
+  modal.style.backgroundColor = "rgba(0,0,0,0.8)";
+  modal.style.display = "flex";
+  modal.style.alignItems = "center";
+  modal.style.justifyContent = "center";
+
+  // Create a new image element inside the modal
+  var img = document.createElement("img");
+  img.src = "images/914LLLL.jpg";
+  img.alt = "Monarch High Track";
+  img.style.maxWidth = "90%";
+  img.style.maxHeight = "90%";
+
+  // Add the image to the modal
+  modal.appendChild(img);
+
+  // Add the modal to the page
+  document.body.appendChild(modal);
+
+  // Add a click event listener to close the modal when clicked
+  modal.addEventListener("click", function() {
+    document.body.removeChild(modal);
+  });
+}
+
+function showModalS3() {
+  // Create a new div element for the modal
+  var modal = document.createElement("div");
+  modal.style.position = "fixed";
+  modal.style.top = "0";
+  modal.style.left = "0";
+  modal.style.width = "100%";
+  modal.style.height = "100%";
+  modal.style.backgroundColor = "rgba(0,0,0,0.8)";
+  modal.style.display = "flex";
+  modal.style.alignItems = "center";
+  modal.style.justifyContent = "center";
+
+  // Create a new image element inside the modal
+  var img = document.createElement("img");
+  img.src = "images/0914JJJJ.jpg";
+  img.alt = "Regonial Sports News";
+  img.style.maxWidth = "90%";
+  img.style.maxHeight = "90%";
+
+  // Add the image to the modal
+  modal.appendChild(img);
+
+  // Add the modal to the page
+  document.body.appendChild(modal);
+
+  // Add a click event listener to close the modal when clicked
+  modal.addEventListener("click", function() {
+    document.body.removeChild(modal);
+  });
+}
+
+function showModalS4() {
+  // Create a new div element for the modal
+  var modal = document.createElement("div");
+  modal.style.position = "fixed";
+  modal.style.top = "0";
+  modal.style.left = "0";
+  modal.style.width = "100%";
+  modal.style.height = "100%";
+  modal.style.backgroundColor = "rgba(0,0,0,0.8)";
+  modal.style.display = "flex";
+  modal.style.alignItems = "center";
+  modal.style.justifyContent = "center";
+
+  // Create a new image element inside the modal
+  var img = document.createElement("img");
+  img.src = "images/914IIII.jpg";
+  img.alt = "National Sports News";
   img.style.maxWidth = "90%";
   img.style.maxHeight = "90%";
 

@@ -335,6 +335,7 @@ body {
 .grid-item-20{
 	border: 2px solid black;
 	text-align: center;
+	font-size: 35px;
 	grid-column-start: 5;
 	grid-column-end: 7;
 	grid-row-start: 17;
@@ -350,7 +351,6 @@ body {
 }
 /* HEALTH IMAGE*/
 .grid-item-20b{
-	border: 2px solid black;
 	text-align: center;
 	grid-column-start: 3;
 	grid-column-end: 5;
@@ -359,7 +359,6 @@ body {
 }
 /* SPORTS IMAGE*/
 .grid-item-20c{
-	border: 2px solid black;
 	text-align: center;
 	grid-column-start: 5;
 	grid-column-end: 7;
