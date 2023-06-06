@@ -392,6 +392,7 @@ body {
 .grid-item-23{
 	border: 2px solid black;
 	text-align: center;
+	font-size: 35px;
 	grid-column-start: 3;
 	grid-column-end: 5;
 	grid-row-start: 28;
@@ -402,6 +403,7 @@ body {
 .grid-item-24{
 	border: 2px solid black;
 	text-align: center;
+	font-size: 35px;
 	grid-column-start: 5;
 	grid-column-end: 7;
 	grid-row-start: 28;
@@ -418,7 +420,6 @@ body {
 }
 /* A&E IMAGE */
 .grid-item-26{
-	border: 2px solid black;
 	text-align: center;
 	grid-column-start: 3;
 	grid-column-end: 5;
@@ -427,7 +428,6 @@ body {
 }
 /* NATIONAL IMAGE */
 .grid-item-27{
-	border: 2px solid black;
 	text-align: center;
 	grid-column-start: 5;
 	grid-column-end: 7;

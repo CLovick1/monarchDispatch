@@ -130,8 +130,8 @@ function showModalB() {
   var img = document.createElement("img");
   img.src = "images/mainStreet_Final.jpg";
   img.alt = "Main Street";
-  img.style.maxWidth = "80%";
-  img.style.maxHeight = "80%";
+  img.style.maxWidth = "90%";
+  img.style.maxHeight = "90%";
 
   // Add the image to the modal
   modal.appendChild(img);
@@ -161,8 +161,8 @@ function showModalC() {
   var img = document.createElement("img");
   img.src = "images/914CCCC.jpg";
   img.alt = "Annual Awards Ceremony";
-  img.style.maxWidth = "80%";
-  img.style.maxHeight = "80%";
+  img.style.maxWidth = "90%";
+  img.style.maxHeight = "90%";
 
   // Add the image to the modal
   modal.appendChild(img);
@@ -193,8 +193,8 @@ function showModalD() {
   var img = document.createElement("img");
   img.src = "images/914DDDD.jpg";
   img.alt = "ScratchCooked Meals";
-  img.style.maxWidth = "80%";
-  img.style.maxHeight = "80%";
+  img.style.maxWidth = "90%";
+  img.style.maxHeight = "90%";
 
   // Add the image to the modal
   modal.appendChild(img);
@@ -225,8 +225,72 @@ function showModalE() {
   var img = document.createElement("img");
   img.src = "images/914EEEE.jpg";
   img.alt = "New Clinic Opening";
-  img.style.maxWidth = "80%";
-  img.style.maxHeight = "80%";
+  img.style.maxWidth = "90%";
+  img.style.maxHeight = "90%";
+
+  // Add the image to the modal
+  modal.appendChild(img);
+
+  // Add the modal to the page
+  document.body.appendChild(modal);
+
+  // Add a click event listener to close the modal when clicked
+  modal.addEventListener("click", function() {
+    document.body.removeChild(modal);
+  });
+}
+
+function showModalF() {
+  // Create a new div element for the modal
+  var modal = document.createElement("div");
+  modal.style.position = "fixed";
+  modal.style.top = "0";
+  modal.style.left = "0";
+  modal.style.width = "100%";
+  modal.style.height = "100%";
+  modal.style.backgroundColor = "rgba(0,0,0,0.8)";
+  modal.style.display = "flex";
+  modal.style.alignItems = "center";
+  modal.style.justifyContent = "center";
+
+  // Create a new image element inside the modal
+  var img = document.createElement("img");
+  img.src = "images/914FFFF.jpg";
+  img.alt = "Soviet, Afghan Arms Deal";
+  img.style.maxWidth = "90%";
+  img.style.maxHeight = "90%";
+
+  // Add the image to the modal
+  modal.appendChild(img);
+
+  // Add the modal to the page
+  document.body.appendChild(modal);
+
+  // Add a click event listener to close the modal when clicked
+  modal.addEventListener("click", function() {
+    document.body.removeChild(modal);
+  });
+}
+
+function showModalO() {
+  // Create a new div element for the modal
+  var modal = document.createElement("div");
+  modal.style.position = "fixed";
+  modal.style.top = "0";
+  modal.style.left = "0";
+  modal.style.width = "100%";
+  modal.style.height = "100%";
+  modal.style.backgroundColor = "rgba(0,0,0,0.8)";
+  modal.style.display = "flex";
+  modal.style.alignItems = "center";
+  modal.style.justifyContent = "center";
+
+  // Create a new image element inside the modal
+  var img = document.createElement("img");
+  img.src = "images/914OOOO.jpg";
+  img.alt = "Rhythm Avenue";
+  img.style.maxWidth = "90%";
+  img.style.maxHeight = "90%";
 
   // Add the image to the modal
   modal.appendChild(img);
