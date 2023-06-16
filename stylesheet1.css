@@ -367,7 +367,7 @@ p {
 }
 /* HEADLINE Story */
 .grid-item-16b {
-	text-align: start;
+    text-align: start;
 	overflow: hidden;
 	grid-column-start: 4;
 	grid-column-end: 7;
@@ -375,15 +375,19 @@ p {
 	grid-row-end: 13;
 }
 .grid-text {
-  font-size: 20px;
-  line-height: 1.4;
+  padding-left: 40px;
+  padding-right: 10px;
+  font-size: 22px;
+  line-height: 1.6;
   text-overflow: ellipsis;
   overflow: hidden;
 }
 .continue-link {
+  padding-left: 40px;
+  padding-right: 10px;
   bottom: 10px;
   right: 10px;
-  font-size: 20px;
+  font-size: 22px;
   color: blue;
 }
 /*Banner Ad1 */
