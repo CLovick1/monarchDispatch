@@ -383,6 +383,7 @@ body {
 .grid-item-22{
 	border: 2px solid black;
 	text-align: center;
+	font-size: 35px;
 	grid-column-start: 1;
 	grid-column-end: 3;
 	grid-row-start: 28;
@@ -411,7 +412,6 @@ body {
 }
 /* OPINION IMAGE */
 .grid-item-25{
-	border: 2px solid black;
 	text-align: center;
 	grid-column-start: 1;
 	grid-column-end: 3;
