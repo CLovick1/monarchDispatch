@@ -128,7 +128,7 @@ function showModalB() {
 
   // Create a new image element inside the modal
   var img = document.createElement("img");
-  img.src = "images/mainStreet_Final.jpg";
+  img.src = "images/914BBBB.jpg";
   img.alt = "Main Street";
   img.style.maxWidth = "90%";
   img.style.maxHeight = "90%";
