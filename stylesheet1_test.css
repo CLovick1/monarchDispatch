@@ -362,14 +362,15 @@ p {
 .grid-item-16 a {
 	color:white;
 	text-decoration: none;
-	opacity: 0.75;
+	opacity: 0.6;
 }
 
 .grid-item-16 a:hover,
 .grid-item-16 a:focus {
 	color:white;
-	opacity: 1;
+	opacity: 0.80;
 }
+
 /* HEADLINE IMAGE DESCRIPTION */
 .grid-item-16a{
 	font-size: 18px;
