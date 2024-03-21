@@ -24,6 +24,32 @@ p {
 	max-width: 1500px;
 }
 
+#prevArrow, #nextArrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%; /* Adjust to align vertically */
+    width: 5%;
+    padding: 10px 20px;
+    margin-top: -52px; /* Adjust based on the size of the buttons */
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.2);
+	border: none;
+}
+
+#nextArrow {
+    right: 425px;
+    border-radius: 3px 0 0 3px;
+}
+
+#prevArrow {
+    left: 425px;
+	border-radius: 0 3px 3px 0;
+}
+
 /* top left AD */
 .grid-item-1 {
   	grid-column-start: 1;
@@ -361,7 +387,7 @@ p {
 
 .grid-item-16 a {
 	color:white;
-	text-decoration: none;
+	/*text-decoration: none;*/
 	opacity: 0.75;
 }
 
@@ -369,13 +395,13 @@ p {
 .grid-item-16 a:focus {
 	color:white;
 	opacity: 1;
-}
+} 
 /* HEADLINE IMAGE DESCRIPTION */
 .grid-item-16a{
 	font-size: 18px;
 	text-align: center;
-	grid-column-start: 1;
-	grid-column-end: 4;
+	grid-column-start: 4;
+	grid-column-end: 5;
 	grid-row-start: 12;
 	grid-row-end: 13;
 }

@@ -24,20 +24,26 @@ document.addEventListener('DOMContentLoaded', function() {
 	
   let currentSlide = 0;
 
- function changeSlide() {
+ function changeSlide(next = true) { // Modified to accept direction
+    if (next) {
+      currentSlide = (currentSlide + 1) % slides.length; // Next slide
+    } else {
+      currentSlide = (currentSlide - 1 + slides.length) % slides.length; // Previous slide
+    }
     const slide = slides[currentSlide];
-    document.getElementById('slideshow-img').src = slide.img; // Now correctly targets the img
-    document.getElementById('slideshow-img').alt = slide.alt; // Update this as well
-    const link = document.getElementById('slideshow-link');
-    link.href = slide.link;
-    link.textContent = slide.text;
+    document.getElementById('slideshow-img').src = slide.img;
+    document.getElementById('slideshow-img').alt = slide.alt;
+    document.getElementById('slideshow-link').href = slide.link;
+    document.getElementById('slideshow-link').textContent = slide.text;
+  }
 
-    currentSlide = (currentSlide + 1) % slides.length; // Loop back to the first slide
-}
+  // Manual navigation
+  document.getElementById('nextArrow').addEventListener('click', function() { changeSlide(true); });
+  document.getElementById('prevArrow').addEventListener('click', function() { changeSlide(false); });
 
-  setInterval(changeSlide, 5000); // Change slide every 5 seconds
+  // Automated slideshow (existing setup)
+  setInterval(function() { changeSlide(); }, 5000);
 });
-
 
 // Define the banners array for the first banner container
 var banners1 = [
