@@ -30,7 +30,7 @@ p {
     top: 50%; /* Adjust to align vertically */
     width: 5%;
     padding: 10px 20px;
-    margin-top: -52px; /* Adjust based on the size of the buttons */
+    margin-top: 100px; /* Adjust based on the size of the buttons */
     color: white;
     font-weight: bold;
     font-size: 24px;

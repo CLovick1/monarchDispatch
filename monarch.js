@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('prevArrow').addEventListener('click', function() { changeSlide(false); });
 
   // Automated slideshow (existing setup)
-  setInterval(function() { changeSlide(); }, 5000);
+  setInterval(function() { changeSlide(); }, 10000);
 });
 
 // Define the banners array for the first banner container
